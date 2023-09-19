@@ -1,0 +1,149 @@
+<!-- Повідомляємо браузеру як потрібно обробляти цю сторінку -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указуюча мову вмісту -->
+<html lang="uk">
+  <!-- Заголовок сторінки, контейнер для других важливих данних (не відображається) -->
+  <head>
+    <!-- Заголовок сторінки в браузері -->
+    <title>GRID</title>
+    <!-- Підключаємо CSS -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Кодіровка сторінки -->
+    <meta charset="UTF-8" />
+    <!-- використовується, щоб змусити Internet Explorer (IE) використовувати останню версію механізму відтворення -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Адаптив -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <!-- Відображаємоє тіло сторінки -->
+  <body>
+    <!-- Оболочка (grid-контейнер) -->
+    <div class="wrapper">
+      <!-- Шапка (grid - элемент) -->
+      <header class="header">
+        <a href="" class="header__logo"></a>
+        <nav class="header__menu">
+          <ul class="header__list">
+            <li>
+              <a href="" target="_blank" class="header__link">Пункт меню</a>
+            </li>
+            <li>
+              <a href="" target="_blank" class="header__link">Пункт меню</a>
+            </li>
+            <li>
+              <a href="" target="_blank" class="header__link">Пункт меню</a>
+            </li>
+            <li>
+              <a href="" target="_blank" class="header__link">Пункт меню</a>
+            </li>
+          </ul>
+          <div class="header__burger"><span></span></div>
+        </nav>
+      </header>
+      <!-- Контент (grid-элемент + grid-контейнер) -->
+      <main class="main">
+        <!-- Сайдбар (grid-элемент) -->
+        <aside class="sidebar">
+          <nav class="sidebar__menu">
+            <ul class="sidebar__list">
+              <li><a href="" class="sidebar__link">Пункт меню</a></li>
+              <li><a href="" class="sidebar__link">Пункт меню</a></li>
+              <li><a href="" class="sidebar__link">Пункт меню</a></li>
+              <li><a href="" class="sidebar__link">Пункт меню</a></li>
+            </ul>
+          </nav>
+        </aside>
+        <!-- Контент (grid-элемент) -->
+        <section class="content">
+          <h1 class="content__title">GRID - Практика</h1>
+          <section class="content__gallery gallery">
+            <h2 class="gallery__title">Галерея</h2>
+            <div class="gallery__items">
+              <div class="gallery__item gallery__item-big">
+                <img src="./img/1.jpg" alt="" />
+              </div>
+              <div class="gallery__item">
+                <img src="./img/2.jpg" alt="" />
+              </div>
+              <div class="gallery__item">
+                <img src="./img/3.jpg" alt="" />
+              </div>
+              <div class="gallery__item">
+                <img src="./img/4.jpg" alt="" />
+              </div>
+              <div class="gallery__item">
+                <img src="./img/5.jpg" alt="" />
+              </div>
+              <div class="gallery__item">
+                <img src="./img/6.jpg" alt="" />
+              </div>
+              <div class="gallery__item">
+                <img src="./img/7.webp" alt="" />
+              </div>
+              <div class="gallery__item gallery__item-big">
+                <img src="./img/8.jpg" alt="" />
+              </div>
+              <div class="gallery__item">
+                <img src="./img/9.jpg" alt="" />
+              </div>
+              <div class="gallery__item">
+                <img src="./img/10.webp" alt="" />
+              </div>
+            </div>
+          </section>
+          <section class="content__products products">
+            <h2 class="products__title">Товари</h2>
+            <div class="products__items">
+              <div class="products__item">
+                <a href="#" class="products__image"
+                  ><img src="./img/avatar.jpg" alt=""
+                /></a>
+                <a href="" class="products__name">Назва продукту</a>
+                <a href="" class="products__button">Купити</a>
+              </div>
+              <div class="products__item">
+                <a href="#" class="products__image"
+                  ><img src="./img/avatar.jpg" alt=""
+                /></a>
+                <a href="" class="products__name">Назва продукту</a>
+                <a href="" class="products__button">Купити</a>
+              </div>
+              <div class="products__item">
+                <a href="#" class="products__image"
+                  ><img src="./img/avatar.jpg" alt=""
+                /></a>
+                <a href="" class="products__name">Назва продукту</a>
+                <a href="" class="products__button">Купити</a>
+              </div>
+              <div class="products__item">
+                <a href="#" class="products__image"
+                  ><img src="./img/avatar.jpg" alt=""
+                /></a>
+                <a href="" class="products__name">Назва продукту</a>
+                <a href="" class="products__button">Купити</a>
+              </div>
+              <div class="products__item">
+                <a href="#" class="products__image"
+                  ><img src="./img/avatar.jpg" alt=""
+                /></a>
+                <a href="" class="products__name">Назва продукту</a>
+                <a href="" class="products__button">Купити</a>
+              </div>
+              <div class="products__item">
+                <a href="#" class="products__image"
+                  ><img src="./img/avatar.jpg" alt=""
+                /></a>
+                <a href="" class="products__name">Назва продукту</a>
+                <a href="" class="products__button">Купити</a>
+              </div>
+            </div>
+          </section>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__copy">Copy, 2023</div>
+        <div class="footer__text">Lorem ipsum dolor sit amet.</div>
+      </footer>
+    </div>
+  </body>
+</html>
